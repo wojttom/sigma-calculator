@@ -1,6 +1,6 @@
 # VERY Stupid calculator project
 it adds numbers \
-plsy some music \
+play some music \
 and produce an image with the sum
 
 TODO:
