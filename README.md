@@ -1,7 +1,8 @@
 # VERY Stupid calculator project
 it adds numbers \
 play some music \
-and produce an image with the sum
+and produce an image with the sum \
+avaliable under this [link](https://wojttom.github.io/kalkulator/)
 
 TODO:
 1. input validation
