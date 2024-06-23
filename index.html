@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigma Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kalkulator</h1>
+    <p>to jest prosty kalkulator. dodaj do siebie dwie liczby</p><br>
+    <form action="#" name="Form" method="post" required>
+        <input type="number" name="num1"> +  <input type="number" name="num2"> 
+    </form>
+    <button id="button" type="button" onclick="script()">Oblicz</button> 
+    <button type="button" onclick="reset()">Reset</button>
+    <br> <br> <br> 
+    <div class="loading" id="loading"></div>
+    <canvas id="canv" width="453" height="700"></canvas>
+    <script src="/main.js"></script>
+</body>
+</html>
