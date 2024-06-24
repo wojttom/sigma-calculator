@@ -1,6 +1,6 @@
 let button = document.getElementById("button")
 let loading = document.getElementById("loading")
-let audio = new Audio('/others/xddd.wav')
+let audio = new Audio('others/xddd.wav')
 let url = "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1024x768_scale,f_auto,q_auto:best/rockcms/2024-05/ryan-gosling-te-240502-73e84a.jpg"
 const c = document.getElementById("canv")
 const ctx = c.getContext("2d")
