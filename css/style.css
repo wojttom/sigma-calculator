@@ -13,7 +13,7 @@
     100% { transform: rotate(360deg); }
 }
 
-img{
+a{
     position: absolute;
     right: 0;
     top: 0;
