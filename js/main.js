@@ -78,7 +78,6 @@ async function script(){
     }
     if(CheckSum===2){
         sum = operation(operator,input1,input2)
-        log(sum)
         loading.style.display="visible"
         loading.style.visibility="visible"
         draw(sum)
