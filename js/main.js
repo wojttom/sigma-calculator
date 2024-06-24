@@ -6,6 +6,9 @@ const c = document.getElementById("canv")
 const ctx = c.getContext("2d")
 audio.volume=0.5
 
+function log (string){
+    console.log(string)
+}
 function wait(time){
     return new Promise(resolve => setTimeout(resolve,time))
 }
@@ -36,10 +39,25 @@ function reset(){
     location.reload()
 }
 
+function Validate(input){
+    if(input==""){
+        alert("All Fields Must Be Filled");
+        return false;
+    }else{
+        return true;
+    }
+}
+
 async function script(){
+    let CheckSum = 0
     let input1 = document.forms["Form"]["num1"].value;
     let input2 = document.forms["Form"]["num2"].value;
-    if(input1 != null && input2 != null){
+    let check1 = Validate(input1)
+    if(check1){
+        let check2 = Validate(input2)
+        CheckSum = (check1 + check2);
+    }
+    if(CheckSum=== 2){
         let sum = input1 + input2;
         loading.style.display="visible"
         loading.style.visibility="visible"
@@ -49,7 +67,5 @@ async function script(){
         loading.style.display="none"
         c.style.visibility="visible"
         c.style.animation="crop 4s linear"
-    }else{
-        alert("All Fields Must Be Filled")
     }
 }
