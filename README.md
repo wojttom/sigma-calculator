@@ -2,7 +2,7 @@
 it adds numbers \
 play some music \
 and produce an image with the sum \
-avaliable under this [link](wojttom.github.io/sigma-calculator//)
+avaliable under this [link](wojttom.github.io/sigma-calculator/)
 
 TODO:
 1. ~~input validation~~
